@@ -1,6 +1,6 @@
 <div align="center">
 
-# [Resturent Hugo](https://themefisher.com/hugo-themes/)
+# [Restaurant Hugo](https://themefisher.com/hugo-themes/)
 <img src="https://user-images.githubusercontent.com/37659754/54488459-33237200-48cc-11e9-97ee-1fd7cbd360ac.gif" alt="screenshot" width="100%">
 
 </div>
@@ -16,7 +16,7 @@
 - [More Hugo Themes](https://themefisher.com/hugo-themes/)
 
 ## Demo
-[Live Demo](https://themes.gohugo.io/theme/resturent-hugo/).
+[Live Demo](https://themes.gohugo.io/theme/restaurant-hugo/).
 
 ## Installation
 
@@ -25,7 +25,7 @@ Navigate to your themes folder in your Hugo site and use the following commands:
 ```
 $ mkdir themes
 $ cd themes
-$ git clone git@github.com:themefisher/resturent-hugo.git
+$ git clone git@github.com:themefisher/restaurant-hugo.git
 ```
 
 ## Main features
@@ -37,8 +37,8 @@ $ git clone git@github.com:themefisher/resturent-hugo.git
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the resturent Template. Please Search [existing issues](https://github.com/themefisher/resturent-hugo/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/resturent-hugo/issues)
+We use GitHub Issues as the official bug tracker for the restaurant Template. Please Search [existing issues](https://github.com/themefisher/restaurant-hugo/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/restaurant-hugo/issues)
 
 ## Technical Support or Questions
 
