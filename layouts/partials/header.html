@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
+	    <meta name="author" content="{{ $.Site.Params.author }}">
+
+		{{ "<!-- Mobile Specific Meta -->" | safeHTML }}
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    {{ .Hugo.Generator }}
+		
+	    <title> {{ .Title }} </title>
+
+	    {{"<!-- CSS -->"|safeHTML}}
+        <!-- Owl Carousel -->
+
+        <link rel="stylesheet" href="{{"css/owl.carousel.css" | absURL }}">
+        <!-- bootstrap.min css -->
+		<link rel="stylesheet" href="{{"css/bootstrap.min.css" | absURL }}">
+        <!-- Font-awesome.min css -->
+		<link rel="stylesheet" href="{{"css/font-awesome.min.css" | absURL}} ">
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="{{"css/animate.min.css" | absURL}} ">
+
+		<link rel="stylesheet" href="{{"css/main.css" | absURL}} ">
+        <!-- Responsive Stylesheet -->
+		<link rel="stylesheet" href="{{"css/responsive.css" | absURL}} ">
+		
+		{{ range .Site.Params.custom_css }}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+        {{ end }}
+
+	</head>
+	<body>

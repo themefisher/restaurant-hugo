@@ -1,0 +1,114 @@
+{{ if .Site.Params.footer.enable }}
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="200ms">
+                        <h3>{{ with .Site.Params.footer.contactInfoTitle }} {{ . | safeHTML }} {{ end }}</h3>
+                        <div class="info">
+                            <ul>
+                                {{ range $.Site.Params.footer.contactItem }}
+                                <li>
+                                  <h4><i class="{{.icon}}"></i>{{ .title }}</h4>
+                                  <p>{{ .content }}</p>
+                                    
+                                </li>
+                                {{end}}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="700ms">
+                        <h3>{{ with .Site.Params.footer.blogTitle }} {{ . | safeHTML }} {{ end }}</h3>
+                         <div class="blog">
+                            <ul>
+                                {{ range first 3 (where .Site.Pages "Type" "post") }}
+                                    {{ "<!-- post -->" | safeHTML }}
+                                    <li>
+                                        <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                                        <p>{{ .PublishDate.Format "02 Jan 2006" }}</p>
+                                    </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+                <div class="col-md-4">
+                    <div class="block wow fadeInLeft"  data-wow-delay="1100ms">
+                        <div class="gallary">
+                            <h3>{{ with .Site.Params.footer.galleryTitle }} {{ . | safeHTML }} {{ end }}</h3>
+                            <ul class="gallery">
+                                {{ range $.Site.Params.gallery.item }}
+                                    <li>
+                                        <img class="img-responsive" src="{{ .img | absURL }}" alt="">
+                                    </li>
+                                {{ end }}
+                                
+                            </ul>
+                        </div>
+                        <div class="social-media-link">
+                            <h3>{{ with .Site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
+                            <ul>
+                                {{ range $.Site.Params.footer.socialLink }}
+                                <li>
+                                    <a href="{{ .link }}">
+                                        <i class="fa fa-{{ .icon }}"></i>
+                                    </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #footer close -->
+{{ end }}
+
+
+{{ if .Site.Params.footerCopyright.enable }}
+    <footer id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block">
+                        <p>{{ with .Site.Params.footerCopyright.text }} {{ . }} {{ end }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+{{ end }}
+
+
+        {{"<!-- Main jQuery -->" | safeHTML}}
+        <script type="text/javascript" src="{{ "js/jquery.min.js" | absURL}}"></script>
+        
+        {{"<!-- Bootstrap 3.1 -->" | safeHTML}}
+        <script type="text/javascript" src="{{ "js/bootstrap.min.js" | absURL}}"></script>
+        
+
+        {{"<!-- jQuery Nav -->" | safeHTML}}
+        <script src="{{ "js/jquery.nav.js" | absURL}}"></script>
+        
+        {{"<!-- jQuery Sticky -->" | safeHTML}}
+        <script src="{{ "js/jquery.sticky.js" | absURL}}"></script>
+
+        {{"<!-- Bootstrap js -->" | safeHTML}}
+        <script src="{{ "js/bootstrap.min.js" | absURL}}"></script>
+        
+        {{"<!-- Plugin js -->" | safeHTML}}
+        <script src="{{ "js/plugins.js" | absURL}}"></script>
+        
+        {{"<!-- wow js for animation -->" | safeHTML}}
+        <script src="{{ "js/wow.min.js" | absURL}}"></script>
+        
+        {{"<!-- Main Js file -->" | safeHTML}}
+        <script src="{{ "js/main.js" | absURL}}"></script>
+
+     </body>
+</html>

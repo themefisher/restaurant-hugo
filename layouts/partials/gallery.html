@@ -1,0 +1,22 @@
+{{ if .Site.Params.gallery.enable }} 
+<section id="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="title">
+                        <h3>{{ with .Site.Params.gallery.title }} {{ . | safeHTML }} {{ end }}</h3>
+                    </div>
+                    <div id="owl-example" class="owl-carousel">
+                        {{ range $.Site.Params.gallery.item }}
+                            <div>
+                                <img class="img-responsive" src="{{ .img | absURL }}" alt="">
+                            </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div><!-- .col-md-12 close -->
+        </div><!-- .row close -->
+    </div><!-- .container close -->
+</section><!-- slider close -->
+{{end}}
