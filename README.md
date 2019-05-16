@@ -25,7 +25,7 @@ Navigate to your themes folder in your Hugo site and use the following commands:
 ```
 $ mkdir themes
 $ cd themes
-$ git clone git@github.com:themefisher/restaurant-hugo.git
+$ git clone github.com:themefisher/restaurant-hugo.git
 ```
 
 ## Main features
