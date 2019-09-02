@@ -5,6 +5,9 @@
 
 </div>
 
+
+**The images are only for demonstration purpose, Please don't use those images.**
+
 ## Table of Contents
 
 - [Demo](#demo)
