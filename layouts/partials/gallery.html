@@ -1,4 +1,4 @@
-{{ if .Site.Params.gallery.enable }} 
+{{ if .Site.Params.gallery.enable }}
 <section id="slider">
     <div class="container">
         <div class="row">
@@ -7,11 +7,9 @@
                     <div class="title">
                         <h3>{{ with .Site.Params.gallery.title }} {{ . | safeHTML }} {{ end }}</h3>
                     </div>
-                    <div id="owl-example" class="owl-carousel">
+                    <div class="gallery-slider">
                         {{ range $.Site.Params.gallery.item }}
-                            <div>
-                                <img class="img-responsive" src="{{ .img | absURL }}" alt="">
-                            </div>
+                        <img class="img-responsive" src="{{ .img | absURL }}" alt="">
                         {{ end }}
                     </div>
                 </div>

@@ -1,19 +1,44 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
 
- $("#owl-example").owlCarousel({
-    // Most important owl features
-    items : 4,
-    pagination : true,
-    paginationSpeed : 1000,
-    navigation : true,
-    navigationText : ["","<i class='fa fa-angle-right'></i>"],
-    slideSpeed : 800,
- });
+    $("#navigation").sticky({
+        topSpacing: 75,
+    });
 
-	$("#navigation").sticky({
-		topSpacing : 75,
-	});
+    // slick slider
+    $('.gallery-slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        arrows: true,
+        prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'fa fa-angle-left\'></i></button>',
+        nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'fa fa-angle-right\'></i></button>',
+        autoplay: true,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 401,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
 
     // animation scroll js
     var html_body = $('html, body');
@@ -40,12 +65,12 @@ $(document).ready(function(){
         }
     });
 
-     $('#top-nav').onePageNav({
-         currentClass: 'active',
-         changeHash: true,
-         scrollSpeed: 1200
+    $('#top-nav').onePageNav({
+        currentClass: 'active',
+        changeHash: true,
+        scrollSpeed: 1200
     });
-//Initiat WOW JS
+    //Initiat WOW JS
     new WOW().init();
 
 });
