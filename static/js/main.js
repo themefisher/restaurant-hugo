@@ -65,11 +65,6 @@ $(document).ready(function () {
         }
     });
 
-    $('#top-nav').onePageNav({
-        currentClass: 'active',
-        changeHash: true,
-        scrollSpeed: 1200
-    });
     //Initiat WOW JS
     new WOW().init();
 
