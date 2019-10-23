@@ -1,8 +1,8 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 {{ partial "hero-area.html" . }}
 
-{{ partial "navigation.html" . }}
+{{- partial "header.html" . -}}
 
 {{ partial "gallery.html" . }}
 
@@ -16,4 +16,4 @@
 
 {{ partial "contact.html" . }}
 
-{{ partial "footer.html" . }}
+{{ end }}

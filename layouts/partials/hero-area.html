@@ -1,8 +1,8 @@
 {{ "<!-- header-img start  -->" | safeHTML }}
-
-
-{{ if .Site.Params.heroArea.enable }} 
-<section id="hero-area">
-  {{ with .Site.Params.heroImg }}<img class="img-responsive" src="{{ .url | absURL }}" alt="">{{end}}
+{{ if .Site.Data.homepage.heroArea.enable }}
+{{ with .Site.Data.homepage.heroArea }}
+<section id="hero-area" {{ if .overlay.enable }} class="overlay" {{ end }}>
+  <img class="img-responsive" src="{{ .bgImage | absURL }}">
 </section>
+{{ end }}
 {{ end }}

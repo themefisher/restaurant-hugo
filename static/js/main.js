@@ -1,9 +1,12 @@
 $(document).ready(function () {
 
-
-    $("#navigation").sticky({
-        topSpacing: 75,
+    // Preloader js    
+    $(window).on('load', function () {
+        $('.preloader').fadeOut(100);
     });
+
+    // venobox popup 
+    $('.venobox').venobox();
 
     // slick slider
     $('.gallery-slider').slick({

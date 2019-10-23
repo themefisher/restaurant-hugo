@@ -1,0 +1,81 @@
+################## Hero area ##################
+heroArea:
+  enable : true
+  bgImage : "images/header.jpg"
+  overlay:
+    enable : true
+
+################### Gallery ###################
+gallery:
+  enable : true
+  sliderItem:
+    - image : "images/slider/slider-img-1.jpg"
+    - image : "images/slider/slider-img-2.jpg"
+    - image : "images/slider/slider-img-3.jpg"
+    - image : "images/slider/slider-img-4.jpg"
+    - image : "images/slider/slider-img-1.jpg"
+    - image : "images/slider/slider-img-2.jpg"
+    - image : "images/slider/slider-img-3.jpg"
+    - image : "images/slider/slider-img-4.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : "images/cooker-img.png"
+  title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+  
+################# Blog ######################
+blog:
+  enable : true
+  title : "Our Latest <span>Blog</span>"
+  bgImage : "images/blog/blog-bg.jpg"
+  overlay:
+    enable : true
+
+
+################# food Menu ################
+pricing:
+  enable : true
+  title : "Our Easy <span>PRICE</span>"
+  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+  subtitle : "FEATURED ON THE WEEK"
+  pricingItem:
+  - title: "Pancakes n' Such Titas"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 125.00"
+
+  - title: "Caesar Salad"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 100.00"
+
+  - title: "Steak with a Garlic and Parsley Risotto"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 20.00"
+
+  - title: "Meat of Skewers"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 45.00"
+
+  - title: "Pancakes n' Such"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 25.00"
+
+################### Subscription ################
+subscription:
+  enable : true
+  bgImage : "images/subscribe-bg.jpg"
+  title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  #Mailchimp subscription configaration 
+  formAction : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay:
+    enable : true
+
+################ Contact #######################
+contact:
+  enable : true
+  title: "Let's <span> Contact Us </span>"
+  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  formAction : "#" #contact form works with formspree.io

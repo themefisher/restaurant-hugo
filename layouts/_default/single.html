@@ -1,6 +1,6 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
-{{ partial "navigation.html" . }}
+{{- partial "header.html" . -}}
 
 <section class="section blog-single-page">
     <div class="container">
@@ -22,4 +22,4 @@
     </div>
 </section>
 
-{{ partial "footer.html" . }}
+{{ end }}

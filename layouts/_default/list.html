@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+{{- partial "header.html" . -}}
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <ul>
+            {{ $paginator := .Paginate .Site.RegularPages }}
+            {{ range $paginator.Pages }}
+            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
+              <div class="blog-img">
+                <img src="{{ .Params.image | absURL }}" alt="post-image" class="img-responsive">
+              </div>
+              <div class="content-right">
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <p>{{ .Summary }}</p>
+              </div>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div><!-- .col-md-12 close -->
+      {{ template "_internal/pagination.html" . }}
+    </div><!-- .row close -->
+  </div><!-- .containe close -->
+</section><!-- #blog close -->
+
+{{end}}
