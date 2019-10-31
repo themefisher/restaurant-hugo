@@ -326,6 +326,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 #blog .block ul li {
   overflow: hidden;
   width: 49.5%;
+  max-height: 210px;
   float: left;
   background: #fff;
   text-align: center;
@@ -355,7 +356,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 #blog .block ul li h3 a {
   color: #323232;
   font-size: 20px;
-
+  display: block;
 }
 
 #blog .block ul li h3 a:hover {
@@ -485,7 +486,10 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 
-
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
