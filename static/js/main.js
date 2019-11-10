@@ -5,6 +5,11 @@ $(document).ready(function () {
         $('.preloader').fadeOut(100);
     });
 
+    // autohiding navbar on mobile devices
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
+
     // venobox popup 
     $('.venobox').venobox();
 
