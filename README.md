@@ -1,8 +1,6 @@
 <div align="center">
-
-# [Restaurant Hugo](https://themefisher.com/hugo-themes/)
+<h1><a href="https://themefisher.com/hugo-themes/">Restaurant Hugo</a></h1>
 <img src="https://user-images.githubusercontent.com/37659754/54488459-33237200-48cc-11e9-97ee-1fd7cbd360ac.gif" alt="screenshot" width="100%">
-
 </div>
 
 
