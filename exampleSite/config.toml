@@ -76,7 +76,13 @@ paginate = 4
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
-copyright = "Copyright 2019 - All Rights Reserved.Design and Developed By Themefisher.com"
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+# google analitycs ID
+googleAnalitycsID = "Your ID"
+# copyright
+copyright = "Copyright 2019 - All Rights Reserved. Design and Developed By Themefisher.com"
 
 # Preloader
 [params.preloader]
