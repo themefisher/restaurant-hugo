@@ -1,9 +1,9 @@
-$(document).ready(function () {
+// Preloader js    
+$(window).on('load', function () {
+    $('.preloader').fadeOut(100);
+});
 
-    // Preloader js    
-    $(window).on('load', function () {
-        $('.preloader').fadeOut(100);
-    });
+$(document).ready(function () {
 
     // autohiding navbar on mobile devices
     $('.navbar-collapse a').click(function () {
