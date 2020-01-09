@@ -80,7 +80,7 @@ logo = "images/logo.png"
 author = "Themefisher"
 description = "This is meta description"
 # google analitycs ID
-googleAnalitycsID = "Your ID"
+google_analitycs_id = "Your ID"
 # copyright
 copyright = "Copyright 2019 - All Rights Reserved. Design and Developed By Themefisher.com"
 
