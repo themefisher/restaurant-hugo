@@ -8,6 +8,7 @@ heroArea:
 ################### Gallery ###################
 gallery:
   enable : true
+  title : "FEATURED WORKS"
   sliderItem:
     - image : "images/slider/slider-img-1.jpg"
     - image : "images/slider/slider-img-2.jpg"

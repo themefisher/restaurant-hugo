@@ -891,6 +891,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   border: 0;
   color: transparent;
   padding: 0;
+  background: #DADADA;
 }
 
 .slick-dots li button:focus {
