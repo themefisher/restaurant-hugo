@@ -10,11 +10,11 @@
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .URL | absURL }} ">
+  <link rel="stylesheet" href="{{ .URL | absURL }}">
   {{ end }}
 
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }} " type="image/x-icon">
-  <link rel="icon" href="{{ "images/favicon.png" | absURL }} " type="image/x-icon">
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
 
 </head>

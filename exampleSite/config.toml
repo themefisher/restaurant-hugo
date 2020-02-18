@@ -2,75 +2,73 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Restaurant Theme By Themefisher"
-theme="restaurant-hugo"
+theme = "restaurant-hugo"
 summaryLength = "7"
-paginate = 4
+paginate = 6
 
 ############################# Plugins ##############################
-[params.plugins]
 
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "css/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "css/slick.css"
-  [[params.plugins.css]]
-  URL = "css/font-awesome.min.css"
-  [[params.plugins.css]]
-  URL = "css/animate.min.css"
-  [[params.plugins.css]]
-  URL = "css/venobox.css"
-  [[params.plugins.css]]
-  URL = "css/main.css"
-  [[params.plugins.css]]
-  URL = "css/responsive.css"
+# CSS Plugins
+[[params.plugins.css]]
+URL = "css/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "css/slick.css"
+[[params.plugins.css]]
+URL = "css/font-awesome.min.css"
+[[params.plugins.css]]
+URL = "css/animate.min.css"
+[[params.plugins.css]]
+URL = "css/venobox.css"
+[[params.plugins.css]]
+URL = "css/main.css"
+[[params.plugins.css]]
+URL = "css/responsive.css"
 
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "js/jquery.min.js"
-  [[params.plugins.js]]
-  URL = "js/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "js/slick.min.js"
-  [[params.plugins.js]]
-  URL = "js/wow.min.js"
-  [[params.plugins.js]]
-  URL = "js/venobox.min.js"
-  [[params.plugins.js]]
-  URL = "js/main.js"
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/jquery.min.js"
+[[params.plugins.js]]
+URL = "js/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "js/slick.min.js"
+[[params.plugins.js]]
+URL = "js/wow.min.js"
+[[params.plugins.js]]
+URL = "js/venobox.min.js"
+[[params.plugins.js]]
+URL = "js/main.js"
 
 ############################## navigation ###############################
-[menu]
-	
-	[[menu.main]]
-  name = "Home"
-  URL = "hero-area"
-  weight = 1
 
-  [[menu.main]]
-  name = "About Us"
-  URL = "about-us"
-  weight = 2
+[[menu.main]]
+name = "Home"
+URL = "hero-area"
+weight = 1
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 3
+[[menu.main]]
+name = "About Us"
+URL = "about-us"
+weight = 2
 
-  [[menu.main]]
-  name = "Price"
-  URL = "price"
-  weight = 4
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 3
 
-  [[menu.main]]
-  name = "News"
-  URL = "subscribe"
-  weight = 5
+[[menu.main]]
+name = "Price"
+URL = "price"
+weight = 4
 
-  [[menu.main]]
-  name = "Contact Us"
-  URL = "contact-us"
-  weight = 6
+[[menu.main]]
+name = "News"
+URL = "subscribe"
+weight = 5
+
+[[menu.main]]
+name = "Contact Us"
+URL = "contact-us"
+weight = 6
 
 
 #################### default parameters ################################

@@ -2,8 +2,7 @@
 heroArea:
   enable : true
   bgImage : "images/header.jpg"
-  overlay:
-    enable : true
+  overlay : true
 
 ################### Gallery ###################
 gallery:
@@ -31,8 +30,7 @@ blog:
   enable : true
   title : "Our Latest <span>Blog</span>"
   bgImage : "images/blog/blog-bg.jpg"
-  overlay:
-    enable : true
+  overlay : true
 
 
 ################# food Menu ################
@@ -71,8 +69,7 @@ subscription:
   #Mailchimp subscription configaration 
   formAction : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
-  overlay:
-    enable : true
+  overlay : true
 
 ################ Contact #######################
 contact:

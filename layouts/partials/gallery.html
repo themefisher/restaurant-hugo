@@ -1,22 +1,23 @@
 {{ if .Site.Data.homepage.gallery.enable }}
 {{ with .Site.Data.homepage.gallery }}
 <section id="slider">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <div class="title">
-                        <h3>{{ .title | markdownify }}</h3>
-                    </div>
-                    <div class="gallery-slider">
-                        {{ range .sliderItem }}
-                        <a href="{{ .image | absURL }}" class="venobox" data-gall="sliderGallery"><img class="img-responsive" src="{{ .image | absURL }}" alt=""></a>
-                        {{ end }}
-                    </div>
-                </div>
-            </div><!-- .col-md-12 close -->
-        </div><!-- .row close -->
-    </div><!-- .container close -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+					<div class="title">
+						<h3>{{ .title | markdownify }}</h3>
+					</div>
+					<div class="gallery-slider">
+						{{ range .sliderItem }}
+						<a href="{{ .image | absURL }}" class="venobox" data-gall="sliderGallery"><img class="img-responsive"
+								src="{{ .image | absURL }}" alt=""></a>
+						{{ end }}
+					</div>
+				</div>
+			</div><!-- .col-md-12 close -->
+		</div><!-- .row close -->
+	</div><!-- .container close -->
 </section><!-- slider close -->
 {{end}}
 {{end}}

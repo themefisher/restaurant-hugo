@@ -1,17 +1,18 @@
 {{ if .Site.Data.homepage.about.enable }}
 {{ with .Site.Data.homepage.about }}
 <section id="about-us">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <img class="img-responsive mx-auto" src="{{ .image | absURL }}" alt="Logo"/>
-                    <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">{{ .title | markdownify }}</h1>
-                    <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">{{ .description | markdownify }}</p>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <img class="img-responsive mx-auto" src="{{ .image | absURL }}" alt="{{ .title }}" />
+          <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">{{ .title | markdownify }}
+          </h1>
+          <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">{{ .description | markdownify }}</p>
         </div>
+      </div>
     </div>
+  </div>
 </section>
 {{end}}
 {{end}}

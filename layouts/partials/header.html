@@ -15,8 +15,8 @@
 							<span class="icon-bar"></span>
 						</button>
 						{{"<!-- logo -->" | safeHTML}}
-						<a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">
-							<img class="img-responsive" src="{{ .Site.Params.logo | absURL }}" alt="Logo">
+						<a class="navbar-brand" href="{{ .Site.BaseURL }}">
+							<img class="img-responsive" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
 						</a>
 						{{"<!-- logo -->" | safeHTML}}
 					</div>
