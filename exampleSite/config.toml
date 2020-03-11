@@ -80,7 +80,7 @@ description = "This is meta description"
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # copyright
-copyright = "Copyright 2019 - All Rights Reserved. Design and Developed By Themefisher.com"
+copyright = "Copyright 2020 - All Rights Reserved. Design and Developed By Themefisher.com"
 
 # Preloader
 [params.preloader]
