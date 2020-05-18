@@ -1,22 +1,22 @@
 ################## Hero area ##################
-heroArea:
+hero_area:
   enable : true
-  bgImage : "images/header.jpg"
+  bg_image : "images/header.jpg"
   overlay : true
 
 ################### Gallery ###################
 gallery:
   enable : true
   title : "FEATURED WORKS"
-  sliderItem:
-    - image : "images/slider/slider-img-1.jpg"
-    - image : "images/slider/slider-img-2.jpg"
-    - image : "images/slider/slider-img-3.jpg"
-    - image : "images/slider/slider-img-4.jpg"
-    - image : "images/slider/slider-img-1.jpg"
-    - image : "images/slider/slider-img-2.jpg"
-    - image : "images/slider/slider-img-3.jpg"
-    - image : "images/slider/slider-img-4.jpg"
+  images:
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
 
 ################ About #######################
 about:
@@ -29,7 +29,7 @@ about:
 blog:
   enable : true
   title : "Our Latest <span>Blog</span>"
-  bgImage : "images/blog/blog-bg.jpg"
+  bg_image : "images/blog/blog-bg.jpg"
   overlay : true
 
 
@@ -39,7 +39,7 @@ pricing:
   title : "Our Easy <span>PRICE</span>"
   description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
   subtitle : "FEATURED ON THE WEEK"
-  pricingItem:
+  pricing_item:
   - title: "Pancakes n' Such Titas"
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
     price : "$ 125.00"
@@ -63,11 +63,11 @@ pricing:
 ################### Subscription ################
 subscription:
   enable : true
-  bgImage : "images/subscribe-bg.jpg"
+  bg_image : "images/subscribe-bg.jpg"
   title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
   #Mailchimp subscription configaration 
-  formAction : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
   overlay : true
 
@@ -76,4 +76,4 @@ contact:
   enable : true
   title: "Let's <span> Contact Us </span>"
   subtitle: "SIGN UP FOR EMAIL ALERTS"
-  formAction : "#" #contact form works with formspree.io
+  form_action : "#" #contact form works with formspree.io

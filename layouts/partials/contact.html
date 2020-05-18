@@ -7,7 +7,7 @@
 				<div class="block">
 					<h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ .title | markdownify }}</h1>
 					<h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">{{ .subtitle | markdownify }}</h3>
-					<form action="{{ .formAction }}" method="POST">
+					<form action="{{ .form_action }}" method="POST">
 						<div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
 							<input type="email" name="email" class="form-control" placeholder="Write your email address here...">
 						</div>
