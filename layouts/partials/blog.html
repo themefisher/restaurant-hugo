@@ -6,24 +6,26 @@
 			<div class="col-md-12">
 				<div class="block">
 					<h1 class="heading">{{ .Site.Data.homepage.blog.title | markdownify }}</h1>
-					<ul>
-						{{ $paginator := .Paginate .Site.RegularPages }}
-						{{ range $paginator.Pages }}
-						<li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
-							<div class="blog-img">
+					{{ $paginator := .Paginate .Site.RegularPages }}
+					{{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+					<div class="col-lg-6">
+						<article class="post wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
+							<div class="post-img">
 								<img src="{{ .Params.Image | absURL }}" alt="post-image" class="img-responsive">
 							</div>
-							<div class="content-right">
+							<div class="post-content">
 								<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 								<p>{{ .Summary }}</p>
 							</div>
-						</li>
-						{{ end }}
-					</ul>
+						</article>
+					</div>
+					{{ end }}
+					<div class="text-center">
+						<a href="/blog" class="btn btn-default">All Post</a>
+					</div>
 				</div>
-			</div><!-- .col-md-12 close -->
-			{{ template "_internal/pagination.html" . }}
-		</div><!-- .row close -->
-	</div><!-- .containe close -->
+			</div>
+		</div>
+	</div>
 </section><!-- #blog close -->
 {{end}}

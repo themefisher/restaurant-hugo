@@ -3,8 +3,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Restaurant Theme By Themefisher"
 theme = "restaurant-hugo"
-summaryLength = "7"
-paginate = 6
+summaryLength = "10"
+paginate = 4
 
 ############################# Plugins ##############################
 
@@ -84,7 +84,7 @@ copyright = "Copyright 2020 - All Rights Reserved. Design and Developed By Theme
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format
 
 ################################### Footer ############################

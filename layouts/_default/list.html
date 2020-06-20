@@ -2,30 +2,32 @@
 
 {{- partial "header.html" . -}}
 
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <ul>
-            {{ $paginator := .Paginate .Site.RegularPages }}
-            {{ range $paginator.Pages }}
-            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
-              <div class="blog-img">
-                <img src="{{ .Params.Image | absURL }}" alt="post-image" class="img-responsive">
-              </div>
-              <div class="content-right">
-                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                <p>{{ .Summary }}</p>
-              </div>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
-      </div><!-- .col-md-12 close -->
-      {{ template "_internal/pagination.html" . }}
-    </div><!-- .row close -->
-  </div><!-- .containe close -->
+<section id="blog" {{ if .Site.Data.homepage.blog.overlay }} class="overlay" {{ end }}
+	style="background-image: url('{{ .Site.Data.homepage.blog.bg_image | absURL }}');">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h1 class="heading">{{ .Site.Data.homepage.blog.title | markdownify }}</h1>
+					{{ $paginator := .Paginate .Site.RegularPages }}
+					{{ range $paginator.Pages }}
+					<div class="col-lg-6">
+						<article class="post wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
+							<div class="post-img">
+								<img src="{{ .Params.Image | absURL }}" alt="post-image" class="img-responsive">
+							</div>
+							<div class="post-content">
+								<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+								<p>{{ .Summary }}</p>
+							</div>
+						</article>
+					</div>
+					{{ end }}
+				</div>
+			</div><!-- .col-md-12 close -->
+			{{ template "_internal/pagination.html" . }}
+		</div><!-- .row close -->
+	</div><!-- .containe close -->
 </section><!-- #blog close -->
 
 {{end}}
