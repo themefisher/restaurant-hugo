@@ -2,14 +2,14 @@
 
 {{- partial "header.html" . -}}
 
-<section id="blog" {{ if .Site.Data.homepage.blog.overlay }} class="overlay" {{ end }}
-	style="background-image: url('{{ .Site.Data.homepage.blog.bg_image | absURL }}');">
+<section id="blog" {{ if site.Data.homepage.blog.overlay }} class="overlay" {{ end }}
+	style="background-image: url('{{ site.Data.homepage.blog.bg_image | absURL }}');">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="block">
-					<h1 class="heading">{{ .Site.Data.homepage.blog.title | markdownify }}</h1>
-					{{ $paginator := .Paginate .Site.RegularPages }}
+					<h1 class="heading">{{ site.Data.homepage.blog.title | markdownify }}</h1>
+					{{ $paginator := .Paginate site.RegularPages }}
 					{{ range $paginator.Pages }}
 					<div class="col-lg-6">
 						<article class="post wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">

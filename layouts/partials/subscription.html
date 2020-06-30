@@ -1,5 +1,5 @@
-{{ if .Site.Data.homepage.subscription.enable }}
-{{ with .Site.Data.homepage.subscription }}
+{{ if site.Data.homepage.subscription.enable }}
+{{ with site.Data.homepage.subscription }}
 <section id="subscribe" {{ if .overlay }} class="overlay" {{ end }}
   style="background-image: url('{{ .bg_image | absURL }}');">
   <div class="container">

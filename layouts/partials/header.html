@@ -15,8 +15,8 @@
 							<span class="icon-bar"></span>
 						</button>
 						{{"<!-- logo -->" | safeHTML}}
-						<a class="navbar-brand" href="{{ .Site.BaseURL }}">
-							<img class="img-responsive" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
+						<a class="navbar-brand" href="{{ site.BaseURL }}">
+							<img class="img-responsive" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
 						</a>
 						{{"<!-- logo -->" | safeHTML}}
 					</div>
@@ -24,16 +24,16 @@
 					{{ if .IsHome }}
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right" id="top-nav">
-							{{ range $.Site.Menus.main }}
-							<li><a href="#{{ .URL }}">{{ .Name }}</a></li>
+							{{ range site.Menus.main }}
+							<li><a href="#{{.URL}}">{{ .Name }}</a></li>
 							{{ end }}
 						</ul>
 					</div><!-- /.navbar-collapse -->
 					{{else}}
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right" id="top-nav">
-							{{ range $.Site.Menus.main }}
-							<li><a href="{{$.Site.BaseURL}}#{{ .URL }}">{{ .Name }}</a></li>
+							{{ range site.Menus.main }}
+							<li><a href="{{site.BaseURL}}#{{.URL}}">{{ .Name }}</a></li>
 							{{ end }}
 						</ul>
 					</div><!-- /.navbar-collapse -->

@@ -1,13 +1,13 @@
-{{ if .Site.Params.footer.enable }}
+{{ if site.Params.footer.enable }}
 <section id="footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
 				<div class="block wow fadeInLeft" data-wow-delay="200ms">
-					<h3>{{ with .Site.Params.footer.contactInfoTitle }} {{ . | safeHTML }} {{ end }}</h3>
+					<h3>{{ with site.Params.footer.contactInfoTitle }} {{ . | safeHTML }} {{ end }}</h3>
 					<div class="info">
 						<ul>
-							{{ range $.Site.Params.footer.contactItem }}
+							{{ range site.Params.footer.contactItem }}
 							<li>
 								<h4><i class="{{.icon}}"></i>{{ .title }}</h4>
 								<p>{{ .content | markdownify }}</p>
@@ -20,10 +20,10 @@
 			<!-- .col-md-4 close -->
 			<div class="col-md-4">
 				<div class="block wow fadeInLeft" data-wow-delay="700ms">
-					<h3>{{ with .Site.Params.footer.blogTitle }} {{ . | safeHTML }} {{ end }}</h3>
+					<h3>{{ with site.Params.footer.blogTitle }} {{ . | safeHTML }} {{ end }}</h3>
 					<div class="blog">
 						<ul>
-							{{ range first 3 (where .Site.Pages "Type" "post") }}
+							{{ range first 3 (where site.Pages "Type" "post") }}
 							{{ "<!-- post -->" | safeHTML }}
 							<li>
 								<h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
@@ -38,18 +38,18 @@
 			<div class="col-md-4">
 				<div class="block wow fadeInLeft" data-wow-delay="1100ms">
 					<div class="gallary">
-						<h3>{{ with .Site.Params.footer.galleryTitle }} {{ . | safeHTML }} {{ end }}</h3>
+						<h3>{{ with site.Params.footer.galleryTitle }} {{ . | safeHTML }} {{ end }}</h3>
 						<ul class="gallery">
-							{{ range $.Site.Params.footer.gallery }}
+							{{ range site.Params.footer.gallery }}
 							<li><a href="{{ .image | absURL }}" class="venobox" data-gall="footerGallery"><img class="img-responsive"
 										src="{{ .image | absURL }}" alt=""></a></li>
 							{{ end }}
 						</ul>
 					</div>
 					<div class="social-media-link">
-						<h3>{{ with .Site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
+						<h3>{{ with site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
 						<ul>
-							{{ range $.Site.Params.footer.socialLink }}
+							{{ range site.Params.footer.socialLink }}
 							<li><a href="{{ .link | safeURL }}"><i class="fa fa-{{ .icon }}"></i></a></li>
 							{{ end }}
 						</ul>
@@ -67,7 +67,7 @@
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
 				<div class="block">
-					<p>{{ .Site.Params.copyright | markdownify }}</p>
+					<p>{{ site.Params.copyright | markdownify }}</p>
 				</div>
 			</div>
 		</div>
@@ -75,12 +75,12 @@
 </footer>
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
-{{ range .Site.Params.plugins.js}}
+{{ range site.Params.plugins.js}}
 <script src="{{ .URL | absURL }}"></script>
 {{ end }}
 
 {{ "<!-- google analitycs -->" | safeHTML }}
-{{ with .Site.Params.google_analitycs_id }}
+{{ with site.Params.google_analitycs_id }}
 <script>
 	(function (i, s, o, g, r, a, m) {
 		i['GoogleAnalyticsObject'] = r;
