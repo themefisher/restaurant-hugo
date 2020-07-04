@@ -79,6 +79,8 @@ author = "Themefisher"
 description = "This is meta description"
 # google analitycs ID
 google_analitycs_id = "Your ID"
+# mainSections
+main_sections = ["post"]
 # copyright
 copyright = "Copyright 2020 - All Rights Reserved. Design and Developed By Themefisher.com"
 
