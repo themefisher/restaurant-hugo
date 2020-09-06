@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Restaurant Theme By Themefisher"
+title = "Restaurant Hugo"
 theme = "restaurant-hugo"
 summaryLength = "10"
 paginate = 4
@@ -82,7 +82,7 @@ google_analitycs_id = "Your ID"
 # mainSections
 main_sections = ["post"]
 # copyright
-copyright = "Copyright 2020 - All Rights Reserved. Design and Developed By Themefisher.com"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
 # Preloader
 [params.preloader]
