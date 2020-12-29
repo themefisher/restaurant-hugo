@@ -46,9 +46,11 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.  
 
 ## Licensing
+Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
 
-This Theme is released under [Creative Commons Attribution 3.0 (CC-BY-3.0) License](https://creativecommons.org/licenses/by/3.0/)
-If you want to remove the credit simply make a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GSG5G2YL3E5V4), so that we can run our contribution to hugo community.
+**Code License:** Released under the [MIT](https://github.com/themefisher/restaurant-hugo/blob/master/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their own licence, we don't have permission to share those image.
 
 ## Hire Us
 We are available for Hiring of your next HUGO project. Drop Us a mail [mehedi@themefisher.com](mailto:mehedi@themefisher.com)
@@ -58,7 +60,3 @@ We are available for Hiring of your next HUGO project. Drop Us a mail [mehedi@th
 | [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![revolve](https://gethugothemes.com/wp-content/uploads/edd/2019/11/revolve.jpg)](https://gethugothemes.com/products/revolve-hugo/) | [![Liva](https://gethugothemes.com/wp-content/uploads/edd/2019/11/liva.png)](https://gethugothemes.com/products/liva-hugo/) |
 |:---:|:---:|:---:|
 | **Hugo Mega Bundle**  | **Revolve**  | **Liva**  |
-| [![Bexer](https://gethugothemes.com/wp-content/uploads/2019/06/hugo-theme-bexer.jpg)](https://gethugothemes.com/products/bexer-hugo-theme/) | [![Parsa](https://gethugothemes.com/wp-content/uploads/edd/2019/07/parsa.jpg)](https://gethugothemes.com/wp-content/uploads/edd/2019/07/parsa.jpg) | [![Kross](https://gethugothemes.com/wp-content/uploads/edd/2019/07/kross-portfolio-template.jpg)](https://gethugothemes.com/products/kross-hugo-theme/) |
-| **Bexer** | **Parsa** | **Kross** |
-| [![Biztrox](https://gethugothemes.com/wp-content/uploads/2019/12/Biztrox.png)](https://gethugothemes.com/products/hugo-business-theme/) | [![Phantom](https://gethugothemes.com/wp-content/uploads/edd/2019/06/Phantom.jpg)](https://gethugothemes.com/products/phantom-hugo-theme/) | [![all](https://gethugothemes.com/wp-content/uploads/2019/12/get-more-hugo-themes.png)](https://gethugothemes.com/shop/) |
-| **Biztrox** | **Phantom** | **More Hugo Themes** |
