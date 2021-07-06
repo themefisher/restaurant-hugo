@@ -529,6 +529,10 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   color: #fff;
 }
 
+.mc-field-group .d-flex {
+  display: flex;
+}
+
 #mc_embed_signup .mc-field-group input.email {
   background: #fff;
   opacity: 0.9;
@@ -537,13 +541,12 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   border-radius: 0;
   width: 75%;
   display: inline-block;
-  float: left;
   outline: none;
+  padding: 0 15px;
 }
 
 #mc_embed_signup .mc-field-group input.button {
   height: 65px;
-  float: left;
   display: inline-block;
   width: 25%;
   margin: 0;
@@ -559,6 +562,23 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
+}
+@media only screen and (max-width: 991px) {
+  #mc_embed_signup .mc-field-group input.email {
+    width: 70%;
+  }
+  #mc_embed_signup .mc-field-group input.button {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mc-field-group .d-flex {
+    display: block;
+  }
+  #mc_embed_signup .mc-field-group input.email,
+  #mc_embed_signup .mc-field-group input.button {
+    width: 100%;
+  }
 }
 
 .subscription-form #mc_embed_signup #mce-success-response {

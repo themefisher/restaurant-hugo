@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
+baseURL = "https://demo.gethugothemes.com/restaurant/"
 languageCode = "en-us"
 title = "Restaurant Hugo"
 theme = "restaurant-hugo"
@@ -82,7 +82,7 @@ google_analitycs_id = "Your ID"
 # mainSections
 main_sections = ["post"]
 # copyright
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
 # Preloader
 [params.preloader]
