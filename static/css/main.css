@@ -68,10 +68,7 @@ ul {
   list-style: none;
 }
 
-a,
-a:active,
-a:focus,
-a:active {
+a, a:active, a:focus, a:active {
   text-decoration: none !important;
   font-size: 15px;
 }
@@ -155,6 +152,7 @@ a:active {
 --*/
 .transition {
   -webkit-transition: .3s all;
+  -moz-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
 }
@@ -282,9 +280,6 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 /*--
-    slider Start
---*/
-/*--
     about-us Start
 --*/
 #about-us {
@@ -392,8 +387,6 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   color: #FF5333;
 }
 
-
-
 #blog .block .btn-more-info {
   float: right;
   padding: 28px 102.5px;
@@ -427,17 +420,10 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   margin-bottom: 20px;
 }
 
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
-
-
-
-
-
-
 
 /*--
     price Start
