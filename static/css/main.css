@@ -763,9 +763,14 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 
 #footer .block .blog ul li p,
 #footer .block .info ul li p,
+#footer .block .info ul li p a,
 #footer .block .gallary ul li p {
   color: #474747;
   font-size: 14px;
+}
+
+#footer .block .info ul li p a:hover {
+  color: #FF4F02;
 }
 
 #footer .block .social-media-link h3 {
