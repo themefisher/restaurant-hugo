@@ -1,62 +1,117 @@
-<div align="center">
-<h1><a href="https://themefisher.com/hugo-themes/">Restaurant Hugo</a></h1>
-<img src="https://user-images.githubusercontent.com/37659754/54488459-33237200-48cc-11e9-97ee-1fd7cbd360ac.gif" alt="screenshot" width="100%">
-</div>
+<h1 align=center>Restaurant Hugo Theme | <a target="_blank" href="https://demo.gethugothemes.com/restaurant" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Frestaurant%2F">Page Speed (85%)</a></h1>
+
+<p align=center>
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.0" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.62.0&color=f00&logo=hugo" />
+  </a>
+
+  <a href="https://github.com/gethugothemes/restaurant-hugo/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/gethugothemes/restaurant-hugo" alt="license"></a>
+
+  <img src="https://img.shields.io/github/languages/code-size/gethugothemes/restaurant-hugo" alt="code size">
+
+  <a href="https://github.com/gethugothemes/restaurant-hugo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/gethugothemes/restaurant-hugo" alt="contributors"></a>
+
+  <a href="https://twitter.com/intent/follow?screen_name=gethugothemes">
+    <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter"
+      alt="follow on Twitter"></a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/37659754/54488459-33237200-48cc-11e9-97ee-1fd7cbd360ac.gif" alt="screenshot" width="100%">
+</p>
+
+---
+## Features
+- Open graph meta tag
+- Twitter card meta tag
+- Google analytics  support
+- CSS and Js bundle with hugo pipe
+- Netlify settings predefine
+- Google page speed optimized ( 85% )
+- Mailchimp integrated
+- Contact form support
 
 
-**The images are only for demonstration purpose, Please don't use those images.**
+## Local development
 
-## Table of Contents
+```bash
+# clone the repository
+git clone git@github.com:gethugothemes/restaurant-hugo.git
 
-- [Demo](#demo)
-- [Installation](#installation)
-- [Main Features](#main-features)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions-(paid))
-- [Licensing](#licensing)
-- [More Hugo Themes](https://themefisher.com/hugo-themes/)
+# cd in the project directory
+$ cd restaurant-hugo/exampleSite/
 
-## Demo
-[Live Demo](http://demo.themefisher.com/restaurant-hugo/).
-
-## Installation
-
-Navigate to your themes folder in your Hugo site and use the following commands:
-
+# Start local dev server
+$ hugo server --themesDir ../..
 ```
-$ mkdir themes
-$ cd themes
-$ git clone github.com:themefisher/restaurant-hugo.git
-```
+Or Check out [Full Documentation](https://docs.gethugothemes.com/restaurant/?ref=github).
 
-## Main features
+## Content Management System
 
-* Fully Responsive Ready.
-* Powered by bootstrap css framework.
-* Well Crafted for Portfolio/Business/Agency
-* Documented codes.
+[![import to
+Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=gethugothemes/restaurant-hugo&engine=hugo&version=0.87.0)
 
+This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your
+repository in Forestry](https://app.forestry.io/quick-start?repo=gethugothemes/restaurant-hugo&engine=hugo&version=0.87.0) and
+you will be able to edit and preview your site ✨.
+
+Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
+
+## Deployment and hosting
+
+[![Deploy to
+Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/restaurant-hugo)
+
+Follow the steps.
+
+## Prefer a video? (Hugo + Netlify + Forestry)
+Build your website with **restaurant Hugo** theme by following these easy steps (No Coding Required!)
+[Video Tutorial](https://youtu.be/ResipmZmpDU).
+
+<!-- reporting issue -->
 ## Reporting Issues
+We use GitHub Issues as the official bug tracker for the restaurant Template. Please Search [existing
+issues](https://github.com/gethugothemes/restaurant-hugo/issues). Someone may have already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new
+issue](https://github.com/gethugothemes/restaurant-hugo/issues/new).
 
-We use GitHub Issues as the official bug tracker for the restaurant Template. Please Search [existing issues](https://github.com/themefisher/restaurant-hugo/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/restaurant-hugo/issues)
+<!-- ## restaurant Hugo theme Powered Websites
 
-## Technical Support or Questions (Paid)
 
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.  
+View all the websites powered by restaurant Hugo theme [here](https://github.com/gethugothemes/restaurant-hugo/wiki/All-restaurant-hugo-theme-Powered-Websites). Want to submit your own website powered by restaurant Hugo theme? You can submit it [here](https://github.com/gethugothemes/restaurant-hugo/discussions). -->
 
-## Licensing
-Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
+<!-- licence -->
+## License
+Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
+[Gethugothemes](https://gethugothemes.com)
 
-**Code License:** Released under the [MIT](https://github.com/themefisher/restaurant-hugo/blob/master/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com/gethugothemes/restaurant-hugo/blob/master/LICENSE) license.
 
-**Image license:** The images are only for demonstration purposes. They have their own licence, we don't have permission to share those image.
+**Image license:** The images are only for demonstration purposes. They have their licenses. We don't have permission to
+share those images.
+
+<!-- resources -->
+## Special Thanks
+- [Animate](https://github.com/animate-css/animate.css)
+- [Bootstrap](https://getbootstrap.com)
+- [Jquery](https://jquery.com)
+- [Slick Slider](https://kenwheeler.github.io/slick/)
+- [Wow](https://wowjs.uk)
+- [Font Awesome Icons](https://fontawesome.com)
+- [Venobox](https://veno.es/venobox/)
+- [All Contributors](https://github.com/gethugothemes/restaurant-hugo/graphs/contributors)
+
 
 ## Hire Us
-We are available for Hiring of your next HUGO project. Drop Us a mail [mehedi@themefisher.com](mailto:mehedi@themefisher.com)
+We are available for **Hiring** for your next HUGO project. Please, check our
+[services](https://cutt.ly/ght-service)
 
-## Premium Themes
-
-| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![revolve](https://gethugothemes.com/wp-content/uploads/edd/2019/11/revolve.jpg)](https://gethugothemes.com/products/revolve-hugo/) | [![Liva](https://gethugothemes.com/wp-content/uploads/edd/2019/11/liva.png)](https://gethugothemes.com/products/liva-hugo/) |
+<!-- premium themes -->
+## Premium Themes By Us
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![airspace](https://demo.gethugothemes.com/thumbnails/airspace.webp)](https://gethugothemes.com/products/airspace/) | [![hargo](https://demo.gethugothemes.com/thumbnails/hargo.webp)](https://gethugothemes.com/products/hargo/) |
 |:---:|:---:|:---:|
-| **Hugo Mega Bundle**  | **Revolve**  | **Liva**  |
+| **Premium Theme Bundle (40+)** | **Airspace** | **Hargo** |
