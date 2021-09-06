@@ -26,14 +26,14 @@
 
 ---
 ## Features
+- Google analytics  support
+- CSS and JS bundle with hugo pipe
+- Netlify settings predefine
+- Mailchimp integrate
+- Contact form support
+- Google page speed optimized ( 85% )
 - Open graph meta tag
 - Twitter card meta tag
-- Google analytics  support
-- CSS and Js bundle with hugo pipe
-- Netlify settings predefine
-- Google page speed optimized ( 85% )
-- Mailchimp integrated
-- Contact form support
 
 
 ## Local development
@@ -77,12 +77,12 @@ Build your website with **restaurant Hugo** theme by following these easy steps 
 We use GitHub Issues as the official bug tracker for the restaurant Template. Please Search [existing
 issues](https://github.com/gethugothemes/restaurant-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
-issue](https://github.com/gethugothemes/restaurant-hugo/issues/new).
+issue](https://github.com/gethugothemes/restaurant-hugo/issues).
 
 <!-- ## restaurant Hugo theme Powered Websites
 
 
-View all the websites powered by restaurant Hugo theme [here](https://github.com/gethugothemes/restaurant-hugo/wiki/All-restaurant-hugo-theme-Powered-Websites). Want to submit your own website powered by restaurant Hugo theme? You can submit it [here](https://github.com/gethugothemes/restaurant-hugo/discussions). -->
+View all the websites powered by restaurant Hugo theme [here](https://github.com/gethugothemes/restaurant-hugo/wiki/All-restaurant-hugo-theme-Powered-Websites). Want to submit your own website powered by restaurant Hugo theme? You can submit it [here](https://github.com/gethugothemes/restaurant-hugo/discussions/26). -->
 
 <!-- licence -->
 ## License
@@ -96,9 +96,9 @@ share those images.
 
 <!-- resources -->
 ## Special Thanks
-- [Animate](https://github.com/animate-css/animate.css)
 - [Bootstrap](https://getbootstrap.com)
 - [Jquery](https://jquery.com)
+- [Animate](https://github.com/animate-css/animate.css)
 - [Slick Slider](https://kenwheeler.github.io/slick/)
 - [Wow](https://wowjs.uk)
 - [Font Awesome Icons](https://fontawesome.com)
