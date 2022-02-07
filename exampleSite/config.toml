@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/restaurant/"
+baseURL = "https://demo.gethugothemes.com/restaurant/examplesite/"
 languageCode = "en-us"
 title = "Restaurant Hugo"
 theme = "restaurant-hugo"
@@ -99,17 +99,17 @@ socialTitle = "Follow <span>US</span>"
 
 ############################ footer contact item
 [[params.footer.contactItem]]
-title="Telephone"
+title = "Telephone"
 icon = "fa fa-phone"
 content = "016742 323313"
 
 [[params.footer.contactItem]]
-title="Address"
+title = "Address"
 icon = "fa fa-map-marker"
 content = "2046 Blue Spruce Lane Laurel Canada"
 
 [[params.footer.contactItem]]
-title="E mail"
+title = "E mail"
 icon = "fa fa-envelope"
 content = "rest@gmail.com - rest@mail.ru"
 
