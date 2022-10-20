@@ -1,4 +1,7 @@
-<h1 align=center>Restaurant Hugo | <a target="_blank" href="https://demo.gethugothemes.com/restaurant" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Frestaurant%2F">Page Speed (85%)</a></h1>
+<h1 align=center>Restaurant Hugo</h1>
+<p align=center>With this theme, you can easily create a blog site mainly for a restaurant or food-related businesses</p>
+<h2 align="center"><a target="_blank" href="https://demo.gethugothemes.com/restaurant" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Frestaurant%2Fsite%2F&form_factor=desktop">Page Speed (85%)</a> </h2>
+
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.0" alt="Contributors">
@@ -26,7 +29,7 @@
 
 ---
 
-## Features
+## Key Features
 
 - Google analytics  support
 - CSS and JS bundle with hugo pipe
@@ -83,9 +86,12 @@ issues](https://github.com/gethugothemes/restaurant-hugo/issues). Someone may ha
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/gethugothemes/restaurant-hugo/issues).
 
-<!-- ## restaurant Hugo theme Powered Websites
+## Restaurant Hugo theme Powered Websites
+- https://bakerscauldron.com/
+- https://stonetreecidery.com/
+- https://mini-backwerk.ch/
 
-View all the websites powered by restaurant Hugo theme [here](https://github.com/gethugothemes/restaurant-hugo/wiki/All-restaurant-hugo-theme-Powered-Websites). Want to submit your own website powered by restaurant Hugo theme? You can submit it [here](https://github.com/gethugothemes/restaurant-hugo/discussions/26). -->
+View all the websites powered by restaurant Hugo theme [here](https://gethugothemes.com/showcase). Want to submit your own website powered by restaurant Hugo theme? You can submit it [here](https://gethugothemes.com/showcase).
 
 <!-- licence -->
 ## License
@@ -120,6 +126,6 @@ If you need to customize the theme or complete website development from scratch,
 <!-- premium themes -->
 ## Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=restaurant_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![parsa](https://demo.gethugothemes.com/thumbnails/parsa.png)](https://gethugothemes.com/products/parsa/) | [![Logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=restaurant_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![parsa](https://demo.gethugothemes.com/thumbnails/parsa.png)](https://gethugothemes.com/products/parsa/) | [![Logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook/) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Parsa** | **Logbook** |
+| **Get 55+ Premium Hugo Themes Bundle** | **Parsa** | **Logbook** |
