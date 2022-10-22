@@ -36,7 +36,7 @@
 - Netlify settings predefine
 - Mailchimp integrate
 - Contact form support
-- Google page speed optimized ( 85% )
+- Google page speed optimized
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -86,12 +86,15 @@ issues](https://github.com/gethugothemes/restaurant-hugo/issues). Someone may ha
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/gethugothemes/restaurant-hugo/issues).
 
-## Restaurant Hugo theme Powered Websites
-- https://bakerscauldron.com/
-- https://stonetreecidery.com/
-- https://mini-backwerk.ch/
+## Submit Your Website To Our Showcase
 
-View all the websites powered by restaurant Hugo theme [here](https://gethugothemes.com/showcase). Want to submit your own website powered by restaurant Hugo theme? You can submit it [here](https://gethugothemes.com/showcase).
+Are you using Restaurant Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
+
+Our showcase aims to demonstrate to the world what amazing websites people like you have created utilizing our Hugo themes and to show that Hugo has tremendous capabilities as a Static Site Generator. 
+
+View all the websites powered by Restaurant Hugo from [here](https://gethugothemes.com/showcase?theme=restaurant). 
+
+[Submit](https://gethugothemes.com/showcase?submit=show) your Restaurant Hugo powered website.
 
 <!-- licence -->
 ## License
