@@ -10,7 +10,7 @@
 							{{ range site.Params.footer.contactItem }}
 							<li>
 								<h4><i class="{{.icon}}"></i>{{ .title }}</h4>
-								<p>{{ .content | markdownify }}</p>
+								<a href="{{ .link | safeURL }}">{{.content | markdownify }}</a>
 							</li>
 							{{end}}
 						</ul>

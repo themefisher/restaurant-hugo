@@ -1,0 +1,46 @@
+#################### default parameters ################################
+logo = "images/logo.png"
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+# google analitycs ID
+google_analitycs_id = "Your ID"
+# mainSections
+main_sections = ["post"]
+# copyright
+copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[plugins.css]]
+URL = "css/bootstrap.min.css"
+[[plugins.css]]
+URL = "css/slick.css"
+[[plugins.css]]
+URL = "css/font-awesome.min.css"
+[[plugins.css]]
+URL = "css/animate.min.css"
+[[plugins.css]]
+URL = "css/venobox.css"
+[[plugins.css]]
+URL = "css/main.css"
+[[plugins.css]]
+URL = "css/responsive.css"
+
+# JS Plugins
+[[plugins.js]]
+URL = "js/jquery.min.js"
+[[plugins.js]]
+URL = "js/bootstrap.min.js"
+[[plugins.js]]
+URL = "js/slick.min.js"
+[[plugins.js]]
+URL = "js/wow.min.js"
+[[plugins.js]]
+URL = "js/venobox.min.js"
+[[plugins.js]]
+URL = "js/main.js"
+  

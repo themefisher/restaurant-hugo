@@ -1,0 +1,7 @@
+######################## default configuration ####################
+baseURL = "https://demo.gethugothemes.com/restaurant/examplesite/"
+languageCode = "en-us"
+title = "Restaurant Hugo"
+theme = "restaurant-hugo"
+summaryLength = "10"
+pagination.pagerSize = 4
