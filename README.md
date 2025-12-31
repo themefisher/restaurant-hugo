@@ -78,7 +78,9 @@ Click the Edit with Sitepins button below and follow the on-screen instructions 
   <a target="_blank" href="https://app.sitepins.com/new/clone?name=Restaurant%20Hugo&repository=https://github.com/themefisher/restaurant-hugo/">
     <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
   </a>
+  
 <!-- reporting issue -->
+
 ## 🐞Reporting Issues
 
 We use GitHub Issues as the official bug tracker for the restaurant Template. Please Search [existing
