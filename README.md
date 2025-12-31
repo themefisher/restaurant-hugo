@@ -60,11 +60,6 @@ Or Check out [Full Documentation](https://docs.gethugothemes.com/restaurant/?ref
 
 ## ⚙️Deployment and hosting
 
-[![Deploy to
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/restaurant-hugo)
-
-Follow the steps.
-
 <!-- edit with sitepins -->
 
 ## 📝 Edit Content with CMS
